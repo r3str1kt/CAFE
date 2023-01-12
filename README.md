@@ -1,2 +1,2 @@
 # Discord-Bot
-A simple discord bot with welcoming, moderation 
+A simple python discord bot with welcoming, moderation 
