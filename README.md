@@ -2,7 +2,7 @@
 A simple python discord bot with welcoming, moderation 
 
 
-https://replit.com/@p12v4t3/Discord-Bot?v=1
+https://replit.com/@p12v4t3/discord-bot
 
 1. To make the bot active 24*7
 2. Sign up on https://uptimerobot.com/
