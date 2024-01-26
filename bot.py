@@ -1,3 +1,5 @@
+# discord py libraries 
+
 import asyncio
 import discord
 import os
@@ -6,9 +8,14 @@ from keep_alive import keep_alive
 
 command_prefix="!"
 
+# bot intents
+
 intents = discord.Intents.default()
 intents.members = True
 client = commands.Bot(intents=discord.Intents.all(), command_prefix="!",description="S1mple Moderation Bot")
+
+# bot events
+
 
 @client.event
 async def on_ready():
@@ -16,6 +23,13 @@ async def on_ready():
   print("Username: ", client.user.name)
   await client.change_presence(status=discord.Status.dnd,activity=discord.Activity(type=discord.ActivityType.playing, name=f"{command_prefix}help | Moderating Over Server"))
   
+# client commands
+# help command
+# moderation commands
+# vc commands
+# confess command
+  
+
 @client.command(aliases=['j'], help='Joins the vc')
 async def join(ctx):
   channel = ctx.author.voice.channel
