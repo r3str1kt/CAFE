@@ -2,6 +2,7 @@
 A simple python discord bot with welcoming, moderation 
 
 Don't forget to add your token in secerts > token
+
 https://replit.com/@p12v4t3/discord-bot
 
 1. To make the bot active 24*7
